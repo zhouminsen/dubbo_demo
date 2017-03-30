@@ -1,2 +1,4 @@
 # dubbo-demo
-dubbo的demo 以及企业怎么运用duubo的示颠三倒四列
+dubbo的demo 以及企业怎么运用duubo的
+dubboconsumer,dubboprovider,dubboproviderInterdace企业常用方式
+consumer和provider为普通demo测试
