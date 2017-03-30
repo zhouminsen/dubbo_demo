@@ -1,4 +1,4 @@
-package com.zjw.dubbo.provider.service;
+package com.zjw.provider.service;
 
 /**
  * dubbo服务接口

@@ -18,10 +18,10 @@
 	<dubbo:protocol name="dubbo" port="20880" />
 
 	<!-- 将该接口暴露到dubbo中 -->
-	<dubbo:service interface="com.zjw.dubbo.com.zjw.provider.service.ProviderService" ref="providerServiceImpl" />
+	<dubbo:service interface="com.zjw.provider.service.ProviderService" ref="providerService" />
 
 	<!-- 将具体的实现类加入到Spring容器中 -->
-	<bean id="providerServiceImpl" class="com.zjw.dubbo.com.zjw.provider.service.impl.ProviderServiceImpl" />
+	<bean id="providerService" class="com.zjw.provider.service.impl.ProviderServiceImpl" />
 
  
 </beans>

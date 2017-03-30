@@ -1,5 +1,4 @@
-package com.zjw.dubbo.provider.service;
-
+import com.zjw.provider.service.ProviderService;
 import org.junit.Before;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;

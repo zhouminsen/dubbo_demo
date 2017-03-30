@@ -1,6 +1,6 @@
-package com.zjw.dubbo.provider.service.impl;
+package com.zjw.provider.service.impl;
 
-import com.zjw.dubbo.provider.service.ProviderService;
+import com.zjw.provider.service.ProviderService;
 
 public class ProviderServiceImpl implements ProviderService {
 

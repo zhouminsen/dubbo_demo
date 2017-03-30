@@ -7,7 +7,7 @@ public class ProviderTest {
 
 
 	@org.junit.Test
-	public void startService() throws IOException {
+	public void test() throws IOException {
 		ClassPathXmlApplicationContext applicationContext = new ClassPathXmlApplicationContext(
 				"classpath:dubbo/*.xml");
 		applicationContext.start();

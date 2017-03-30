@@ -15,6 +15,6 @@
 	<dubbo:registry address="zookeeper://127.0.0.1:2181" client="zkclient"/>
 	
 	<!-- 从注册中心中查找服务 -->
-	<dubbo:reference id="demoService" interface="com.zjw.dubbo.com.zjw.provider.service.ProviderService"/>
+	<dubbo:reference id="demoService" interface="com.zjw.provider.service.ProviderService"/>
  
 </beans>

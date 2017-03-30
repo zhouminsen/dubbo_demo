@@ -15,7 +15,7 @@
 	<dubbo:registry address="zookeeper://127.0.0.1:2181"
 		client="zkclient" />
 
-	<!-- 从注册中心中查找服务 -->
+	<!-- 从注册中心中查找服务  check=false表示启动不识别检查,既提供方没有该服务则忽略,check=true检查提供方的依赖,没有抛出异常-->
 	<dubbo:reference id="calcService" interface="com.zjw.provider.service.CalcService" check="false"/>
 	
 	<dubbo:reference id="userService" interface="com.zjw.provider.service.UserService"  check="false"></dubbo:reference>
