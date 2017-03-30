@@ -17,11 +17,11 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/consumer/pom.xml" />
-        <option value="$PROJECT_DIR$/provider/pom.xml" />
         <option value="$PROJECT_DIR$/dubboproviderInterface/pom.xml" />
         <option value="$PROJECT_DIR$/dubboprovider/pom.xml" />
         <option value="$PROJECT_DIR$/dubboconsumer/pom.xml" />
+        <option value="$PROJECT_DIR$/consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/provider/pom.xml" />
       </list>
     </option>
   </component>
