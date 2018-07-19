@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ba6097f-a513-4824-a496-4c129a33d169" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="dubbo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -832,7 +832,7 @@
       <workItem from="1490856187590" duration="160000" />
       <workItem from="1490856353546" duration="2920000" />
       <workItem from="1532006308850" duration="150000" />
-      <workItem from="1532006751533" duration="31000" />
+      <workItem from="1532006751533" duration="70000" />
     </task>
     <task id="LOCAL-00001" summary="修改名称&#10;">
       <created>1490856254843</created>
@@ -869,7 +869,14 @@
       <option name="project" value="LOCAL" />
       <updated>1490860669274</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="删除idea的配置文件">
+      <created>1532006791420</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1532006791420</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -905,7 +912,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26107000" />
+    <option name="totallyTimeSpent" value="26146000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
@@ -964,7 +971,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="修改名称&#10;" />
     <MESSAGE value="idea的配置文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="idea的配置文件" />
+    <MESSAGE value="删除idea的配置文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="删除idea的配置文件" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
