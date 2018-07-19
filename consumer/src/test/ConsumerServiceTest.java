@@ -5,18 +5,13 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class ConsumerServiceTest {
-	private ProviderService providerService;
 
-	@Before
-	public void setUp() throws Exception {
-		ApplicationContext applicationContext = new ClassPathXmlApplicationContext(
-				"classpath:dubbo/*.xml");
-		this.providerService = applicationContext.getBean(ProviderService.class);
-	}
 
 	@Test
 	public void testQueryAll() {
-		System.out.println(providerService.add(1, 2));
-		
+		ApplicationContext applicationContext = new ClassPathXmlApplicationContext(
+				"classpath:dubbo/*.xml");
+		ProviderService providerService = applicationContext.getBean(ProviderService.class);
+		System.out.println(providerService.add(1, 3));
 	}
 }

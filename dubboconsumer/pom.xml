@@ -51,7 +51,7 @@
 	  </dependency>
 
 	  <dependency>
-		  <groupId>com.zjw.dubboproviderInterface</groupId>
+		  <groupId>com.zjw.dubbo.demo</groupId>
 		  <artifactId>dubboproviderInterface</artifactId>
 		  <version>1.0-SNAPSHOT</version>
 	  </dependency>
