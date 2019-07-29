@@ -1,13 +1,13 @@
-import com.zjw.provider.service.ProviderService;
-import org.junit.Test;
+package com.zjw.provider.service;
+
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-public class ConsumerServiceTest {
-
-
-    @Test
-    public void testQueryAll() {
+/**
+ * Created by zhoum on 2019-07-29.
+ */
+public class Main {
+    public static void main(String[] args) {
         ApplicationContext applicationContext = new ClassPathXmlApplicationContext(
                 "classpath:dubbo/*.xml");
         ProviderService providerService = applicationContext.getBean(ProviderService.class);
